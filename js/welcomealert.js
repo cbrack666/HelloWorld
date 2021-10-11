@@ -1,3 +1,3 @@
 use strict;
 
-alert("The Brackman says, &ldquo; Welcome to my page &rdquo;");
+alert("The Brackman says, Welcome to my page!");
