@@ -12,3 +12,8 @@ h1 {
 p {
   color: white;
 }
+
+a, a:link, a:visited {
+  color: #fff;
+  text-decoration: none;
+}
