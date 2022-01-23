@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#title {
+    color: white;
+}
+
+.numberentry {
+    display: inline-block;
+}
+
+sub {
+    font-size:x-small; 
+    vertical-align:sub;
+}
