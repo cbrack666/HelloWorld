@@ -15,6 +15,11 @@ h3 {
   color: white;
 }
 
+ol, li {
+  /* text-align: center; */
+  color: white;
+}
+
 p {
   color: white;
 }
