@@ -12,6 +12,23 @@ let startVal = +startBtn.value;
 
 function genberateSeq()
 {
+	let val = startVal;
+	
+	while (val < 4)
+	{
+		if (val%2 === 1)
+		{
+			val *= 3; 
+			val += 1;
+		}
+		else
+		{
+			val /= 2;
+		}
+	}
+	
+	
+	output.textContent += (`, ${val}`); 
 }
 
 
