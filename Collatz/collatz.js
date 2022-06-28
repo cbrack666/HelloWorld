@@ -1,49 +1,24 @@
 "using strict";
 
+let startNum = document.getElementById("startNum");
 let startBtn = document.getElementById("");
 let output = document.getElementByID("");
 
+startBtn.addEventListener("click",  
+			  () => { generateSeq(); }
+);
 
 
 
-
-
-
-
+function genberateSeq()
+{
+}
 
 
 
 
 
 /*
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@cbrack666 
-cbrack666
-/
-HelloWorld
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-HelloWorld/BrackFibonacci/app.js /
-@cbrack666
-cbrack666 Add files via upload
-Latest commit c3a627d on Jan 23
- History
- 1 contributor
-72 lines (53 sloc)  1.65 KB
 
 "using strict";
 
