@@ -28,12 +28,7 @@ function generateSeq()
 		}
 
 		let curStr = output.textContent;
-		let addStr = "";
-		if (init === true)
-		{
-			addStr = `, ${val}`;
-			init = false;
-		}
+		let addStr = `${val}, `
 		
 		output.textContent = curStr + addStr;
 	}
