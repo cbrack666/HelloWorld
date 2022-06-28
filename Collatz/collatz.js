@@ -13,7 +13,6 @@ let startVal = +startNum.value;
 function generateSeq()
 {
 	let val = startVal;
-	let init = true;
 	
 	while (val > 4)
 	{
