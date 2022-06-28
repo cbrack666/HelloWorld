@@ -2,7 +2,7 @@
 
 let startNum = document.getElementById("startCollatz");
 let startBtn = document.getElementById("goButton");
-let output = document.getElementByID("collatzSeq");
+let output = document.getElementById("collatzSeq");
 
 startBtn.addEventListener("click",  
 			  () => { generateSeq(); }
