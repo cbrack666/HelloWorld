@@ -8,11 +8,12 @@ startBtn.addEventListener("click",
 			  () => { generateSeq(); }
 );
 
-let startVal = +startNum.value;
+let startVal;
 
 function generateSeq()
 {
 	let val = startVal;
+	startVal = +startNum.value;
 	
 	while (val > 4)
 	{
