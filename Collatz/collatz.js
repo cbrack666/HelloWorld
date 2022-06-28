@@ -1,7 +1,7 @@
 "using strict";
 
-let startNum = document.getElementById("startNum");
-let startBtn = document.getElementById("");
+let startNum = document.getElementById("startCollatz");
+let startBtn = document.getElementById("goButton");
 let output = document.getElementByID("");
 
 startBtn.addEventListener("click",  
