@@ -25,7 +25,10 @@ function generateSeq()
 		{
 			val /= 2;
 		}
-		output.textContent += (`, ${val}`); 
+
+		let curStr = output.textContent;
+		let addStr = `, ${val}`;
+		output.textContent = curStr + addStr;
 	}
 }
 
