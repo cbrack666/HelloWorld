@@ -25,10 +25,8 @@ function generateSeq()
 		{
 			val /= 2;
 		}
+		output.textContent += (`, ${val}`); 
 	}
-	
-	
-	output.textContent += (`, ${val}`); 
 }
 
 
