@@ -10,7 +10,7 @@ startBtn.addEventListener("click",
 
 let startVal = +startNum.value;
 
-function genberateSeq()
+function generateSeq()
 {
 	let val = startVal;
 	
