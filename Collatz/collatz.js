@@ -13,6 +13,7 @@ let startVal = +startNum.value;
 function generateSeq()
 {
 	let val = startVal;
+	let init = true;
 	
 	while (val > 4)
 	{
@@ -27,7 +28,13 @@ function generateSeq()
 		}
 
 		let curStr = output.textContent;
-		let addStr = `, ${val}`;
+		let addStr = "";
+		if (init === true)
+		{
+			addStr = `, ${val}`;
+			init = false;
+		}
+		
 		output.textContent = curStr + addStr;
 	}
 }
