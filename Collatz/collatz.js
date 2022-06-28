@@ -14,7 +14,7 @@ function generateSeq()
 {
 	let val = startVal;
 	
-	while (val < 4)
+	while (val > 4)
 	{
 		if (val%2 === 1)
 		{
