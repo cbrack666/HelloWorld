@@ -5,7 +5,10 @@ let startBtn = document.getElementById("goButton");
 let output = document.getElementById("collatzSeq");
 
 startBtn.addEventListener("click",  
-			  () => { generateSeq(); }
+			  () => {
+					output.textContent = String.Empty;
+					generateSeq(); 
+				}
 );
 
 let startVal;
